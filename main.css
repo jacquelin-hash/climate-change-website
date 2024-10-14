@@ -1,0 +1,177 @@
+* {
+    /* background-color: #ff0072;  */
+    box-sizing: border-box;
+}
+ 
+html, body {
+    background-color: #F7D6E0; 
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+    font-family: sans-serif;
+}
+
+body {
+    padding: 1em;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: transparent; 
+}
+
+.logo img {
+    width: 600px; /* Adjust the width to make the logo larger */
+    height: auto; /* Keep the aspect ratio */
+    display: block; /* Ensure there’s no extra spacing around the image */
+    margin: 0 auto; /* Center the logo */
+}
+
+.nav_list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.nav_list li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav_list li a {
+    text-decoration: none;
+    color: #EFF7F6;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 0 150px;
+}
+
+/* White Box Section (above the polar bear) */
+.white-box {
+    background-color: white;
+    padding: 40px;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 1400px;
+    min-height: 330px; /* Minimum height */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: left;
+    display: flex; 
+    align-items: flex-start;
+}
+
+.white-box .box-content p {
+    font-size: 1.2em;
+    line-height: 1.6em;
+    color: #B27092;
+    margin-bottom: 20px;
+}
+
+.box-content {
+    background-color: #fff;
+}
+
+.bear-and-content .box-content {
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.polar-bear-image {
+    height: 200px; /* Set a specific height */
+    width: auto; /* Width will adjust automatically to maintain aspect ratio */
+    border-radius: 40px;
+    float: left;
+    margin-right: 50px;
+    display: block;
+}
+
+.bear {
+    /* overflow: hidden; */
+    /* margin: 20px; */
+    /* text-align: left; */
+}
+
+/* Flexbox for Polar Bear and Content Section */
+.bear-and-content {
+    display: flex;
+    gap: 1em;
+    /* justify-content: space-between; Align bear image and content boxes side by side */
+    /* align-items: flex-start; Align them to the top */
+    /* max-width: 1200px; */
+    /* margin: 20px auto; */
+    /* background-color: transparent; Keep the background transparent */
+} */
+
+/* Content Section */
+.content {
+    /* width: 50%; Content takes up 50% of the width */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white; /* White background for the content box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-left: 20px; /* Ensure proper spacing from the bear image */
+}
+
+.box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px; /* Adjust width as per design */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 100%;
+}
+
+.box img {
+    width: 80%; 
+    height: auto; 
+    border-radius: 10px;
+    margin-bottom: 10px;
+} 
+
+
+        /* @media only screen and (min-width: 400px) { */
+            .bear img {
+                content: url('polar bear climate change.jpg'); 
+                width: 100%; 
+                border-radius: 1em;
+            }
+        /* } */
+
+        .bear-and-content {
+            display: flex;
+            /* justify-content: space-between;  */
+            align-items: flex-start; 
+            /* margin: 20px auto; */
+            /* max-width: 1400px; */
+        }
+
+        .content {
+            width: 50%; 
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+            border-radius: 10px;
+        }
+
+        .box {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px; 
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        }
+
+        .box img {
+            width: 80%;
+            /* height: auto;  */
+        }
+
+footer {
+    background-color: transparent;
+    text-align: center;
+    padding: 10px 0;
+}
