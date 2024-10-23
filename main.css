@@ -23,19 +23,19 @@ header {
 }
 
 logo img {
-    width: 600px; /* Adjust the width to make the logo larger */
-    height: auto; /* Keep the aspect ratio */
-    display: block; /* Ensure there’s no extra spacing around the image */
-    margin: 0 auto; /* Center the logo */
+    width: 600px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
 } 
 
 
 .causes-title {
     font-size: 1.5em; /* Adjust the size as needed */
-    font-weight: bold; /* Bold font for emphasis */
-    text-align: center; /* Center the title */
-    margin-top: 30px; /* Add some space above the title */
-    color: #B27092; /* Optional: Use a color that fits your design */
+    font-weight: bold; 
+    text-align: center; 
+    margin-top: 30px; 
+    color: #B27092; 
 }
 
 .nav_list {
@@ -54,7 +54,7 @@ logo img {
     text-decoration: none;
     color: #EFF7F6;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin: 0 150px;
     position: relative;
     transition: color 0.3s ease-in-out;
@@ -62,7 +62,7 @@ logo img {
 
 /* Hover Effect for Links */
 .nav_list li a:hover {
-    color: #B27092; /* Change color on hover */
+    color: #B27092; /* Color of the hover effect*/
 }
 
 /* Underline animation */
@@ -74,7 +74,7 @@ logo img {
     width: 0;
     height: 2px;
     background-color: #B27092;
-    transition: width 0.3s ease-in-out; /* Smooth transition for underline */
+    transition: width 0.3s ease-in-out; /* Transition for underline */
 }
 
 /* Expand the underline on hover */
@@ -86,7 +86,7 @@ logo img {
 .causes-grid, .solutions-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 columns */
-    gap: 20px; /* Space between items */
+    gap: 20px; 
     max-width: 1200px;
     margin: 40px auto;
     padding: 20px;
@@ -95,8 +95,7 @@ logo img {
 /* Grid Section */
 .causes-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive layout */
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
     padding: 20px;
 }
 
@@ -139,6 +138,36 @@ logo img {
     align-items: flex-start;
 }
 
+/* Description Text for Action Steps */
+.description {
+    font-size: 1.2em;
+    color: #2C3E50;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* Action List Styling */
+.action-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.action-list li {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #B20792;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.action-list li strong {
+    margin-left: 10px;
+}
+
 .intro-text {
     font-size: 1.8em;
     font-weight: bold;
@@ -170,10 +199,10 @@ logo img {
 }
 
 .white-box.box-content h1{
-    font-size: 2em; /* Adjust the title size */
-    font-weight: bold; /* Bold the title */
-    margin-bottom: 20px; /* Add space below the title */
-    color: #B27092; /* Optional: Title color */
+    font-size: 2em; 
+    font-weight: bold; 
+    margin-bottom: 20px; 
+    color: #B27092; 
 }
 
 .white-box .box-content p {
@@ -196,8 +225,8 @@ logo img {
 }
 
 .polar-bear-image {
-    height: 200px; /* Set a specific height */
-    width: auto; /* Width will adjust automatically to maintain aspect ratio */
+    height: 200px; 
+    width: auto; 
     border-radius: 40px;
     float: left;
     margin-right: 50px;
@@ -228,7 +257,7 @@ logo img {
     border-radius: 10px;
     background-color: white; /* White background for the content box */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    margin-left: 20px; /* Ensure proper spacing from the bear image */
+    margin-left: 20px; 
 }
 
 .box {
